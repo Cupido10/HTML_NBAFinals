@@ -52,13 +52,13 @@ body{
 
 #CavButton{
     position: absolute;
-    top:300px;
+    top:600px;
     right:600px;
 }
 
 #WarButton{
     position: absolute;
-    top:300px;
+    top:600px;
     left:600px;
 }
    
