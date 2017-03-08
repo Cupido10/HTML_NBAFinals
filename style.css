@@ -1,0 +1,67 @@
+body{
+    background-image: url(images/back.png);
+    background-size: cover;
+}
+
+#lebron{
+    height: 1000px;
+    width: 500px;
+    position:absolute;
+    top: 50px;
+    right: 80px;
+    background-image: url(images/youngLBJ.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: height 2s,width 2s;
+    border-radius: 25px 10px;
+    
+    
+}
+
+
+#lebron:hover{
+    height: 1500px;
+    width: 800px;
+    background: url("images/LBJ.png");/*滑鼠移過顯示圖片*/
+    
+    background-repeat: no-repeat;
+    
+}
+
+
+#curry{
+    height: 1000px;
+    width: 500px;
+    position:absolute;
+    top: 50px;
+    left: 80px;
+    background-image: url(images/youngCurry.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    transition: height 2s,width 2s;
+    
+}
+
+#curry:hover{
+    height: 1200px;
+    width: 800px;
+    background: url("images/Curry.png"); /*滑鼠移過顯示圖片*/
+    background-repeat: no-repeat;
+    
+}
+
+#CavButton{
+    position: absolute;
+    top:300px;
+    right:600px;
+}
+
+#WarButton{
+    position: absolute;
+    top:300px;
+    left:600px;
+}
+   
+
+
+
